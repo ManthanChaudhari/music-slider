@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaySic</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c0b1921ddf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="searchCont">
+                <input class="searchInput" type="search" placeholder="Music" autofocus/>
+                <i class="fa-solid fa-magnifying-glass fa-lg searchGlass" style="color: #74C0FC;"></i>
+            </div>
+        </header>
+        <main>
+            <div class="music-card">
+            <div class="image-card">
+                <!-- <img class="music-image" src="https://picsum.photos/id/237/150/150" alt="">
+                <img class="music-image" src="https://picsum.photos/id/238/150/150" alt="">
+                <img class="music-image" src="https://picsum.photos/id/239/150/150" alt="">
+                <img class="music-image" src="https://picsum.photos/id/240/150/150" alt="">
+                <img class="music-image" src="https://picsum.photos/id/241/150/150" alt="">
+                <img class="music-image" src="https://picsum.photos/id/242/150/150" alt=""> -->
+            </div>
+                <div class="music-tools">
+                    <p class="title">Lorem Ipsum : Lorem ipsum dolor sit amet.</p>
+                    <input type="range"/>
+                <div class="music-controls">
+                    <i class="fa-solid fa-backward-step fa-lg prev btn"></i>
+                    <i class="fa-solid fa-play fa-lg" style="color : white"></i>
+                    <i class="fa-solid fa-forward-step fa-lg next btn"></i>
+                </div>
+                </div>
+            </div>
+            <div class="music-queue">
+                <template id="music-card-template">
+                    <div class="card">
+                        <div class="queue-image">
+                            <img class="sub-image" src="https://lh3.googleusercontent.com/KYw74XSQwtKPbZTrHMNEBAnEMg1P1gNGwymnZwBSjstbqSE-MpigGlTIy6IZvC-ERlRkeP0c7VTiZObS=w120-h120-l90-rj" alt="">
+                        </div>
+                        <div class="card-details">
+                            <div class="card-details">
+                                <p class="music-title">Mera Saamaan Kahan Hai ?</p>
+                                <p class="music-author">Chaar Diwari</p>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
